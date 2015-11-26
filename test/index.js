@@ -94,15 +94,12 @@ test('should notify on enable', function (t) {
   }, 5)
 })
 
-
-
 function setup (timeout) {
   offline = new Offline(timeout)
   socket = new Emitter()
 
   squelches = 0
   notifies = 0
-
 
   offline.on('squelch', function () {
     squelches++
