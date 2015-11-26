@@ -43,6 +43,10 @@ test('should delay and throttle disconnect', function (t) {
   t.equal(notifies, 0)
 
   setTimeout(function () {
+    t.equal(notifies, 0)
+  }, 50)
+
+  setTimeout(function () {
     t.equal(notifies, 1)
     t.end()
   }, 110)
