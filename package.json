@@ -2,7 +2,7 @@
   "name": "notify-offline",
   "description": "Notify user when offline.",
   "repository": "git://github.com/weo-edu/notify-offline.git",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
